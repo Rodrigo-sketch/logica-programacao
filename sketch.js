@@ -15,6 +15,11 @@ let xRaqueteOponente = 585;
 let yRaqueteOponente = 150;
 let velocidadeYOponente = 6;
 
+let colidiu = false
+
+let pacr_json = ("./package.json");
+let version = ("./package_json.version");
+
 function setup() {
   createCanvas(600, 400);
 }
